@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main {
+    width: 100%;
+    background-image: url(./CAP2.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.navbar .logo {
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+    position: relative;
+    animation: logo 2s  ease-in-out infinite;
+
+}
+
+@keyframes logo {
+    from{
+        rght: 0%;
+    }
+    to{
+        left: 10%;
+    }
+    
+}
+
+ul {
+    margin-top: -4;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    transition: all .4s ease;
+
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -35%;
+    transition: all .45s ease;
+    
+    
+
+
+}
+
+ul li:hover{
+    transform: scale(2);
+}
+
+ul li a:hover {
+    color: #fff;
+    background-color: rgb(199, 36, 36);
+    transform: scale(.9);
+    
+
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: rgb(44, 42, 42);
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span {
+    color: rgb(199, 36, 36);
+}
+
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(36, 32, 30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    display: inline-block;
+    border-radius: 10PX;
+    transition: 2s ease;
+}
+
+.info a:hover {
+    background-color: rgb(199, 36, 36);
+}
+
+.image {
+    width: 30%;
+    height: 60%;
+    right: 100px;
+    position: absolute;
+    bottom: 28%;
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 60%;
+    transform: translate(-55%);
+    transition: left 2s ease;
+    /* opacity: 80%; */
+
+}
+
+.image:hover .picture {
+    left: 55%;
+
+}
+
+.icon{
+    /* width: 10px;
+    height: 10vh; */
+    margin-left: 6%;
+
+}
+
+
+
+
+#insta{
+    width: 4.3%;
+    height: 4.3vh;
+}
+
+#twiter{
+    width: 5%;
+    height: 5vh;
+
+
+}
